@@ -33,6 +33,8 @@ public enum TrackingEventType: String, Codable {
     case acceptInvitation
     case close
     case unknown
+    case overlayViewDuration
+    case otherAdInteraction
 }
 
 struct TrackingEventAttributes {
