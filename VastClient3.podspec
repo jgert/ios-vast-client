@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.license = 'MIT'
   s.summary = 'Vast Client is a Swift Framework which implements the VAST 4.0 spec'
   s.homepage = 'https://github.com/zattoo/ios-vast-client'
-  s.source = { :git => 'https://github.com/zattoo/ios-vast-client', :tag => s.version }
+  s.source = { :git => 'https://github.com/zattoo/ios-vast-client.git', :tag => s.version }
   s.tvos.deployment_target = '11.0'
   s.ios.deployment_target = '11.0'
   s.source_files = 'Sources/VastClient/**/*.swift'
