@@ -7,7 +7,7 @@
 //
 
 import Foundation
-@testable import VastClient
+@testable import VastClient3
 
 class VastTrackerDelegateSpy: VastTrackerDelegate {
     private(set) var firstQuartileDone = false

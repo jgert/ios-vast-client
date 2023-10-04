@@ -7,7 +7,7 @@
 //
 
 import Foundation
-@testable import VastClient
+@testable import VastClient3
 
 extension Double {
     static func makeArray(from: Int = 0, to: Int) -> [Double] {

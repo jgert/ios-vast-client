@@ -27,13 +27,13 @@ let package = Package(
             name: "VastClient3",
             dependencies: [],
                 path: "Sources/VastClient"),
-//        .testTarget(
-//            name: "VastClientTests",
-//            dependencies: ["VastClient"],
-//            resources: [
-//                .process("Assets/Vast4-resources"),
-//                .process("Assets/Vast3-resources"),
-//                .process("Assets/vast3.xsd"),
-//                .process("Assets/vast4.xsd"),
-//            ]),
+        .testTarget(
+            name: "VastClientTests",
+            dependencies: ["VastClient3"],
+            resources: [
+                .process("Assets/Vast4-resources"),
+                .process("Assets/Vast3-resources"),
+                .process("Assets/vast3.xsd"),
+                .process("Assets/vast4.xsd"),
+            ]),
     ])

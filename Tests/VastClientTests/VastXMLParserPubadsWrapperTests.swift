@@ -6,7 +6,7 @@
 //  Copyright © 2018 John Gainfort Jr. All rights reserved.
 //
 
-@testable import VastClient
+@testable import VastClient3
 import XCTest
 
 class VastXMLParserPubadsWrapperTests: XCTestCase {

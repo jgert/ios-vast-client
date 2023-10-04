@@ -7,7 +7,7 @@
 //
 
 import Foundation
-@testable import VastClient
+@testable import VastClient3
 
 extension VastModel {
     static let adVerification: VastModel = {

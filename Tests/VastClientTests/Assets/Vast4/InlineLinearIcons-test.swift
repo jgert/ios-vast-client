@@ -6,7 +6,7 @@
 //  Copyright © 2018 John Gainfort Jr. All rights reserved.
 //
 import Foundation
-@testable import VastClient
+@testable import VastClient3
 
 extension VastModel {
     static let inlineLinearIcons: VastModel = {

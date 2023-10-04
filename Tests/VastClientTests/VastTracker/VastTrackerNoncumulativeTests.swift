@@ -6,7 +6,7 @@
 //  Copyright © 2019 John Gainfort Jr. All rights reserved.
 //
 
-@testable import VastClient
+@testable import VastClient3
 import XCTest
 
 /** Preroll test case scenario with non-cumulative tracker
