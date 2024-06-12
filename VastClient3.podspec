@@ -13,4 +13,6 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'OTHER_SWIFT_FLAGS[config=Debug]' => '-DDEBUG'
   }
+  
+  s.swift_version = '5.0'
 end
